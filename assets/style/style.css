@@ -1,0 +1,128 @@
+:root {
+    --bg-color-basic: #efefef;
+    --color-white: #ffffff;
+    --color-font-description: #333333;
+    --color-font-footer: #828282;
+    --color-black: #000000;
+    --img-bg-color: #c4c4c4;
+    --font-primary: "Roboto", Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--bg-color-basic);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    min-height: 250px;
+
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header-info {
+
+    min-height: 50px;
+}
+
+.header-info__list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
+    justify-content: center;
+    padding: 17px 0 15px;
+}
+
+.header-info__item {
+}
+
+.header-info__link {
+    color: var(--color-font-description);
+    line-height: 16px;
+}
+
+.container--brand {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+
+}
+
+.right {
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-brand {
+    background-color: var(--color-white);
+    min-height: 120px;
+    border-bottom: 1px solid var(--bg-color-basic);
+    padding: 19px 0 20px; 
+}
+
+
+.header-brand__item {
+  
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+.header-brand__link-logo {
+
+}
+
+.header-brand__link-number {
+    color: var(--color-black);
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.header-brand__link-call {
+    color: var(--color-black);
+    line-height: 16px;
+    padding: 9px 25px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+}
+
+.header-category {
+    background-color: var(--color-white);
+    min-height: 80px;
+}
+
+.header-category__list {}
+
+.header-category__item {}
+
+.header-category__link {}
