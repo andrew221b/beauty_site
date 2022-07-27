@@ -1,4 +1,5 @@
 :root {
+    --bg-color-pink: #f13c6e;
     --bg-color-basic: #efefef;
     --color-white: #ffffff;
     --color-font-description: #333333;
@@ -6,6 +7,7 @@
     --color-black: #000000;
     --img-bg-color: #c4c4c4;
     --font-primary: "Roboto", Arial, sans-serif;
+
 }
 
 *,
@@ -21,6 +23,7 @@ html {
     font-size: 14px;
     font-weight: 400;
     background-color: var(--bg-color-basic);
+    line-height: 1.42;
 }
 
 a {
@@ -28,16 +31,9 @@ a {
     cursor: pointer;
 }
 
-img {
-    object-fit: cover;
-    width: 100%;
-    display: block;
-}
-
 
 .header {
     min-height: 250px;
-
 }
 
 .container {
@@ -57,10 +53,7 @@ img {
     flex-wrap: wrap;
     gap: 31px;
     justify-content: center;
-
 }
-
-.header-info__item {}
 
 .header-info__link {
     color: var(--color-font-description);
@@ -73,17 +66,16 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-
 }
 
 .container--right {
     display: flex;
     margin: 0 0 0 auto;
+    padding: 0;
     gap: 40px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 0;
 }
 
 .header-brand {
@@ -94,24 +86,23 @@ img {
 }
 
 
-.header-brand__item {}
-
-
-.header-brand__link-logo {}
 
 .header-brand__link-number {
     color: var(--color-black);
     font-size: 1.14em;
-    line-height: 19px;
-
 }
 
 .header-brand__link-call {
     color: var(--color-black);
     line-height: 16px;
-    padding: 9px 25px;
+    padding: 10px 25px;
     border: 2px solid #F13C6E;
     border-radius: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
 }
 
 .header-category {
@@ -128,11 +119,58 @@ img {
     justify-content: center;
 }
 
-.header-category__item {}
-
 .header-category__link {
-font-size: 1.14em;
-line-height: 19px;
-color: var(--color-black);
+    font-size: 1.14em;
+    color: var(--color-black);
+}
 
+.main {}
+
+.main-promo {
+
+    max-height: 604px;
+}
+
+
+
+.main-promo__content {
+    
+}
+
+.container--promo {
+   
+
+}
+
+
+.main-promo__title {
+    font-weight: 700;
+    font-size: 3.4em;
+    line-height: 56px;
+    color: var(--color-white);
+}
+
+.main-promo__description {
+    color: var(--color-white);
+    padding-top: 50px;
+}
+
+.main-promo__link {
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--color-white);
+    background: var(--bg-color-pink);
+    border: 2px solid var(--color-white);
+    border-radius: 40px;
+    padding: 10px 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 174px;
+}
+
+.main-promo__action {
+    padding-top: 50px;
 }
