@@ -367,3 +367,9 @@ font-size: 12px;
 line-height: 28px;
 color: var(--color-font-footer);
 }
+
+.footer-social {
+    background-color: var(--color-white);
+    min-height: 120px;
+    padding: 20px 0 14px;
+}
