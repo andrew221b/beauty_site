@@ -93,6 +93,16 @@ a {
     border-bottom: 1px solid var(--bg-color-basic);
 }
 
+.contacts__beauty {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.1em;
+color: var(--bg-color-pink);
+display: flex;
+align-items: center;
+}
+
 .contacts__link-number {
     color: var(--color-black);
     font-size: 1.14em;
@@ -243,6 +253,12 @@ a {
     align-items: center;
     justify-content: center;
     width: 129px;
+}
+
+.section-flex__block--footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .section-flex__action {
@@ -408,8 +424,4 @@ a {
     color: var(--color-font-footer);
 }
 
-.section-flex__block--footer {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
+
