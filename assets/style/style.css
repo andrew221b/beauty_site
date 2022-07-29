@@ -94,13 +94,13 @@ a {
 }
 
 .contacts__beauty {
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: 0.1em;
-color: var(--bg-color-pink);
-display: flex;
-align-items: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: var(--bg-color-pink);
+    display: flex;
+    align-items: center;
 }
 
 .contacts__link-number {
@@ -150,7 +150,7 @@ align-items: center;
 }
 
 .main-promo__content {
-    max-width: 50%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -286,7 +286,7 @@ align-items: center;
     background-color: var(--bg-color-pink);
     align-items: center;
     padding: 35px 45px 35px 40px;
-    
+
 }
 
 @media (max-width: 495px) {
@@ -423,5 +423,3 @@ align-items: center;
     line-height: 14px;
     color: var(--color-font-footer);
 }
-
-
