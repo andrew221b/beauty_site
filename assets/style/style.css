@@ -142,15 +142,23 @@ a {
 }
 
 .main-promo {
+   background-color: var(--bg-color-pink);
+}
+
+.main-promo__fix {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     min-height: 604px;
-    background-image: url(..//img/promo.svg);
-    background-repeat: no-repeat;
+    background-image: url(../img/promo.svg);
+    background-position: center;
     background-size: cover;
-    background-color: var(--bg-color-pink);
+    background-repeat: no-repeat;
+    margin-right: auto;
 }
 
 .main-promo__content {
-    max-width: 330px;
+    width: 1150px;
     display: flex;
     flex-direction: column;
 }
@@ -163,6 +171,7 @@ a {
     font-size: 48px;
     line-height: 56px;
     color: var(--color-white);
+    max-width: 330px;
 }
 
 .main-promo__description {
